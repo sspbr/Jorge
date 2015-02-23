@@ -1,5 +1,5 @@
 package com.example.pesquisaandroid;
-
+// test Jorge Alberto github
 import java.util.ArrayList;
 
 import android.app.Activity;
@@ -276,7 +276,7 @@ public class automatico extends Activity{
     	 cursor2.moveToFirst();
     	try{
     		if (cursor2.getCount() > 0) {
-    			return "Pesquisa ativa é a: " + cursor2.getString(2).toString();
+    			return "Pesquisa ativa Ã© a: " + cursor2.getString(2).toString();
     		}else{
     			return "Nenhuma pesquisa Ativa!";
     		}
